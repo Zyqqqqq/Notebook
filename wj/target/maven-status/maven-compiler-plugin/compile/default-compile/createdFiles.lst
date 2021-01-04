@@ -1,0 +1,4 @@
+com\SEdesign\notebook\result\Result.class
+com\SEdesign\notebook\NotebookApplication.class
+com\SEdesign\notebook\controller\LoginController.class
+com\SEdesign\notebook\pojo\User.class
