@@ -88,6 +88,13 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.46</version>
         </dependency>
+
+        <!-- junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version> 4.12</version>
+        </dependency>
         <!-- commons-lang -->
         <dependency>
             <groupId>commons-lang</groupId>
@@ -104,6 +111,12 @@
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <properties>
@@ -130,5 +143,4 @@
             <url>http://repo.spring.io/libs-snapshot</url>
         </pluginRepository>
     </pluginRepositories>
-    //修改
 </project>
